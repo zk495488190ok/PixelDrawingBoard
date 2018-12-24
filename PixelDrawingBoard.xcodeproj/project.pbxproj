@@ -11,6 +11,7 @@
 		D027D38221C4B24700E384E4 /* DivoomPixelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D027D38121C4B24700E384E4 /* DivoomPixelAdapter.m */; };
 		D0329F6221C798B60003055D /* DivoomPixelDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329F6121C798B60003055D /* DivoomPixelDrawView.m */; };
 		D0329F6721C89CDD0003055D /* DivoomCustomPixelRrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329F6621C89CDD0003055D /* DivoomCustomPixelRrawView.m */; };
+		D0329FAA21D0C5FD0003055D /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0329FA921D0C5FC0003055D /* Untitled.gif */; };
 		D0E5DCDA21A7974A007597A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5DCD921A7974A007597A4 /* AppDelegate.m */; };
 		D0E5DCDD21A7974A007597A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5DCDC21A7974A007597A4 /* ViewController.m */; };
 		D0E5DCE021A7974A007597A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5DCDE21A7974A007597A4 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		D0329F6421C7A3E10003055D /* DivoomPixel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomPixel.h; sourceTree = "<group>"; };
 		D0329F6521C89CDD0003055D /* DivoomCustomPixelRrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomCustomPixelRrawView.h; sourceTree = "<group>"; };
 		D0329F6621C89CDD0003055D /* DivoomCustomPixelRrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomCustomPixelRrawView.m; sourceTree = "<group>"; };
+		D0329FA921D0C5FC0003055D /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		D0E5DCD521A7974A007597A4 /* PixelDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E5DCD821A7974A007597A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0E5DCD921A7974A007597A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,9 +81,18 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D0329FA821D0C5EC0003055D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FA921D0C5FC0003055D /* Untitled.gif */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		D0E5DCCC21A7974A007597A4 = {
 			isa = PBXGroup;
 			children = (
+				D0329FA821D0C5EC0003055D /* image */,
 				D0E5DCD721A7974A007597A4 /* PixelDrawingBoard */,
 				D0E5DCD621A7974A007597A4 /* Products */,
 			);
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E5DCE521A7974B007597A4 /* LaunchScreen.storyboard in Resources */,
+				D0329FAA21D0C5FD0003055D /* Untitled.gif in Resources */,
 				D0E5DCE221A7974B007597A4 /* Assets.xcassets in Resources */,
 				D0E5DCE021A7974A007597A4 /* Main.storyboard in Resources */,
 			);
